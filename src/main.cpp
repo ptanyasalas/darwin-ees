@@ -1,6 +1,7 @@
 #include "darwin/Ecosystem.h"
 #include <exception>
 #include <iostream>
+#include <stdexcept>
 #include <string>
 namespace {
 void help(){std::cout<<"Darwin EES Phase 1\nOptions: --world-size N --water N --food N --herbivores N --predators N --ticks N --seed N --stats-interval N --output PATH --help\n";}
